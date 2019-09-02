@@ -1,5 +1,9 @@
 #### nginx-proxy
 
+### Kill prev container -> build new image -> run new image
+
+* sh restart.sh
+
 ## Build image
 
 * docker build -t nginx .
